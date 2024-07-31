@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link no-underline rel="preconnect" href="https://fonts.googleapis.com">
+    <link no-underline rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link no-underline href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link no-underline href="/styles/styles.css" rel="stylesheet" />
+    <title>Tailwind Starter</title>
+</head>
+
+<body class="font-GeomLight">
+    <!--Hero-->
+    <div class=" overflow-hidden relative hero bg-base-200  h-auto "
+        style="background-image: url(./images/bghero.png);">
+        <div class="hero-overlay bg-opacity-30"></div>
+        <img src="images/Polygon.png" class="top-0 left-0 absolute   w-[170px] lg:w-[240px] xl:w-[300px] 3xl:w-auto">
+        <div class="traingle-90 absolute  "></div>
+        <a href="/" class=" absolute top-14 lg:top-20 left-8 lg:left-14"><img src="images/Trust_institute_logo.png"
+                alt="logo" class=" w-[80px] lg:w-[100px] xl:w-[150px] 3xl:w-auto"></a>
+
+        <div class="traingle-90-big traingle-white w-[calc(100%-165px)]  absolute  h-[90%] hidden lg:block"
+            style="width: 40%;">
+
+        </div>
+        <div class="bg-base-100 h-8 lg:h-12 w-full top-0 left-0 absolute"></div>
+        <div
+            class="hero-content justify-between flex-col lg:flex-row lg:items-end content-container-x my-[60px] lg:my-[80px]">
+            <div class="text-center lg:text-left max-w-[826px] w-full lg:mb-20">
+                <h1 class=" title-hero"><span>We Bring
+                    </span> <span><br>Forex
+                        Training</span>
+                    <br>to You!
+                </h1>
+
+            </div>
+            <div class="card   bg-base-100 text-[16px]   max-w-[560px]  shrink-0 shadow-2xl w-full ">
+
+                <form class="card-body" id="form">
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">First name</span>
+                        </label>
+                        <input type="email" placeholder="First name" class="input input-bordered" required />
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Email</span>
+                        </label>
+                        <input type="password" placeholder="you@company.com" class="input input-bordered" required />
+
+                    </div>
+
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Phone Number</span>
+                        </label>
+                        <input type="password" placeholder="Phone Number" class="input input-bordered" required />
+
+                    </div>
+                    <div class="join gap-2">
+
+                        <div class="form-control join-item w-full">
+                            <label class="label ">
+                                <span class="label-text">Preferred Date </span>
+                            </label>
+                            <input type="date" placeholder="19-07-2024" class="input input-bordered" required />
+
+                        </div>
+                        <div class="form-control join-item w-full">
+                            <label class="label">
+                                <span class="label-text">Preferred Time </span>
+                            </label>
+                            <input type="time" placeholder="19-07-2024" class="input input-bordered" required />
+
+                        </div>
+
+                    </div>
+                    <div class="form-control">
+                        <label for="">
+                            <span class="label-text">Location Preference </span>
+                        </label>
+                        <div class="join gap-4 mt-4">
+                            <label for="loctn1"
+                                class="join-item flex items-center font-Inter text-[12px] sm:text-[14px] lg:text-[16px]"><input
+                                    type="radio" name="loctn" class=" rounded-md radio radio-secondary radio-sm mr-2"
+                                    id="loctn1" />Trust
+                                Institute
+                                Office</label>
+                            <label for="loctn2"
+                                class="join-item flex items-center font-Inter text-[12px] sm:text-[14px] lg:text-[16px]"><input
+                                    type="radio" name="loctn" class="rounded-md radio radio-secondary  radio-sm mr-2"
+                                    id="loctn2" />Your
+                                Office</label>
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="form-control mt-5">
+                        <label for="terms" class=" flex items-center font-Inter  text-[#9295B] text-[12px]"><input
+                                type="checkbox" name="terms" class="checkbox checkbox-secondary checkbox-sm mr-2"
+                                id="terms" />You agree to
+                            our friendly <a class="underline text-secondary"> privacy policy</a>.</label>
+
+
+                    </div>
+
+
+                    <div class="form-control mt-6">
+                        <button class="btn btn-primary btn-md font-Inter font-medium">Register Now</button>
+                    </div>
+                    <div role="alert" class="hidden alert alert-error py-1 rounded-[8px]">
+
+                        <span>Error! Task failed successfully.</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--HeroEnd-->
+    <!-- section -->
+    <section class="relative">
+        <div class="traingle-90-big traingle-red w-full lg:w-[calc(100%-165px)]  absolute  z-[-1] h-[100%]">
+        </div>
+
+        <div class="content-container-x flex flex-row-reverse ">
+
+            <div class=" max-w-[50%] lg:max-w-[38.19%] 3xl:max-w-[657px]   text-white flex flex-col ">
+                <div>
+                    <h2 class="mt-10 lg:mt-28 title-heading ">Free Seminar<br>
+                        by Dubai's #1<br>
+                        Institute</h2>
+
+                    <p class="description  ">
+                        Learn all you need to know
+                        about finance and trading!</p>
+                    <div class="flex flex-col items-start lg:items-center 2xl:items-start">
+                        <span
+                            class=" mt-8 lg:mt-8 2xl:mt-6 3xl:mt-[133px] block lg:text-[12px] xl:text-[19px] 2xl:text-[30px] 3xl:text-[40px] font-GeomVarible">Licensed
+                            & Approved by</span>
+                        <img src="images/khda.png" alt="khda"
+                            class="max-w-[150px!important] inline-block mb-24 2xl:mb-4 xl:max-w-[45%!important] 2xl:max-w-[57%!important] 3xl:max-w-[376px!important]">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="relative">
+
+            <div class="content-container-x relative ">
+                <div
+                    class="max-w-[50%] lg:max-w-[44%] xl:max-w-[757px]  3xl:max-w-[757px] text-black lg:mt-[-150px] 3xl:mt-[-250px] lg:pl-[10%]  3xl:pl-[173px] ">
+
+                    <h2 class="  text-primary title-heading">Invest
+                        in<br>
+                        your team's<br>
+                        financial<br>
+                        future</h2>
+
+                    <p class="description ">
+                        <strong>Increased Financial Literacy:</strong> Boost employee knowledge and understanding of
+                        financial
+                        markets.
+                    </p>
+
+                    <p class="description">
+                        <strong>Risk Awareness:</strong> Make smarter decisions with a solid grasp of risk management
+                        principles.
+                    </p>
+
+
+
+                    <p class="description ">
+                        <strong> Improved Profit Potential:</strong> Open doors to new avenues for financial growth.
+                    </p>
+
+
+
+                </div>
+            </div>
+            <img src="images/bg-1.png"
+                class="absolute top-0 right-0 lg:mt-[130px] 3xl:mt-[250px] max-w-[45%!important] sm:max-w-[30%!important] lg:max-w-[30%!important] 2xl:max-w-[30%!important] 3xl:max-w-[37%!important]">
+
+        </div>
+    </section>
+    <!-- sectionEND -->
+    <!-- section -->
+    <section class="relative">
+
+        <div class="content-container-x">
+
+            <div
+                class=" 2xl:pt-24 max-w-[50%] lg:max-w-[41%] xl:max-w-[509px] 2xl:max-w-[709px] 3xl:max-w-[709px]  ms-auto  text-black ">
+                <div class="lg:ml-[-14%] 3xl:ml-[-246px]">
+
+                    <h2 class="mt-24  text-primary title-heading">Invest in<br>
+                        your team's<br>
+                        financial<br>
+                        future</h2>
+                    <div class="lg:max-w-[400px] xl:max-w-[509px] 3xl:max-w-[709px]">
+                        <p class="description ">
+                            <strong>Expert Guidance:</strong> Our global trading experts provide personalized
+                            instruction
+                            and insights.
+                        </p>
+                        <p class="description ">
+                            <strong>Interactive Learning:</strong> Engaging sessions encourage active participation and
+                            discussion.
+                        </p>
+                        <p class="description">
+                            <strong> Tailored Content: </strong>
+                            We can customize the seminar to address your company's specific needs.
+
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+        <img src="images/bg-2.png"
+            class="absolute top-0 left-0 mt-[117px] max-w-[45%!important] sm:max-w-[30%!important]  lg:max-w-[30%!important] 2xl:max-w-[30%!important] 3xl:max-w-[37%!important]">
+
+
+    </section>
+    <!-- sectionend -->
+    <!-- section -->
+    <section class="relative">
+
+        <div class="content-container-x">
+
+            <div class="   text-black lg:ml-[18%] 3xl:ml-[315px]">
+
+                <h2 class="mt-24 text-primary title-heading max-w-[949px]">Walk away with<br>
+                    valuable knowledge<br>
+                    & recognition</h2>
+                <div class="max-w-[305px] md:max-w-[505px] lg:max-w-[41%] xl:max-w-[605px] 3xl:max-w-[715px]">
+                    <p class="description ">
+                        <strong class="">Comprahensive Training</strong> : Gain a solid foundation in essential forex
+                        trading
+                        concepts.
+                    </p>
+                    <p class="description ">
+                        <strong class="">Certificate of Completion:</strong> Showcase your team's accomplishment upon
+                        successful completion.
+
+                    </p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- sectionEND -->
+    <!-- section-->
+    <section class="relative">
+
+        <div class="content-container-x flex flex-col justify-center">
+
+            <div class="max-w-[80%] xl:max-w-[800px] 3xl:max-w-[1052px]   text-black mx-auto text-center">
+
+                <img src="images/speaker.png" alt=""
+                    class=" mb-5 mt-[100px] block max-w-[100%!important] sm:max-w-[60%!important]  lg:max-w-[50%!important] 2xl:max-w-[60%!important] 3xl:max-w-[70%] mx-auto">
+                <h2 class="mt-4  title-heading block">Are you<br>
+                    ready?</h2>
+                <div class="">
+                    <p class="description ">
+                        Don't miss this valuable opportunity to empower your employees with the knowledge and skills to
+                        navigate the forex market with trust.
+                    </p>
+                    <a href="" class="btn btn-primary font-GeomLight btn-md w-[80%] lg:w-[400px]  mt-10">Register
+                        Now</a>
+
+
+                    <span class="text-sm font-GeomLight block mt-5">Limited Spots Available! Register Your Team Today!
+                    </span>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- sectionEND -->
+    <!--footer-->
+    <footer class="mt-[100px] lg:mt-[150px]  bg-[#141527] text-base-content p-10">
+        <div class="footer">
+            <aside>
+                <img src="images/logo.png" alt="" class="w-[166px]">
+                <p>
+
+
+                <h6
+                    class="footer-title  font-Inter text-[#949DCA] text-[12px] md:text-[14px] lg:text-[16px] capitalize">
+                    Follow Us On</h6>
+                <div class="grid grid-flow-col gap-4">
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-white h-[16px]">
+                            <path
+                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-white h-[16px]">
+                            <path
+                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-white h-[16px]">
+                            <path
+                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+
+                </p>
+            </aside>
+            <nav class=" font-Inter text-[#949DCA] text-[12px] md:text-[12px] lg:text-[14px]">
+
+                <a class="link  no-underline ">About Us</a>
+                <a class="link  no-underline ">Educational Program</a>
+                <a class="link  no-underline ">Review</a>
+                <a class="link  no-underline ">Privacy Policy</a>
+            </nav>
+            <nav class=" font-Inter text-[#949DCA] text-[12px] md:text-[12px] lg:text-[14px]">
+
+                <a class="link  no-underline ">Payment Policy</a>
+                <a class="link  no-underline ">Service Policy</a>
+                <a class="link  no-underline ">Refund/Return Policy</a>
+                <a class="link  no-underline ">Cancellation & Replacement Policy</a>
+            </nav>
+            <nav class="font-Inter">
+                <form>
+
+                    <fieldset class="form-control w-full sm:w-80">
+                        <label class="label ">
+                            <span class=" text-base-100">Sign up for FREE 30 Mins Intro Lessons</span>
+                        </label>
+                        <div>
+                            <input type="text" placeholder="username@site.com"
+                                class="input input-bordered bg-transparent w-full" />
+                            <button class="btn btn-primary mt-3 w-full">Register Now</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </nav>
+        </div>
+        <p
+            class=" lg:w-max mx-auto text-center mt-8 text-[#949DCA] font-Inter text-[12px] md:text-[14px] lg:text-[16px] capitalize">
+            ©TRUST
+            TRAINING AND DEVELOPMENT INSTITUTE 2024</p>
+    </footer>
+
+
+
+</body>
+
+</html>
